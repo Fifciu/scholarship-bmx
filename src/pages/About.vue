@@ -1,5 +1,5 @@
 <template lang="pug">
-    div.players(:style="'background-image: url(static/map.jpg)'")
+    div.players(:style="'background-image: url(/scholarship-bmx/static/map.jpg)'")
         div.inner-space
             h1 Skontaktuj się z nami
             p W celu nawiązania kontaktu wypełnij poniższy formularzy. Na pewno się odezwiemy!

@@ -2,7 +2,7 @@
     div.grid-gallery
         cmp-grid-gallery-photo(
             v-for="(i,index) in 6"
-            :photo="'static/players/'+player+'/'+(index+1)+'.jpg'"
+            :photo="'/scholarship-bmx/static/players/'+player+'/'+(index+1)+'.jpg'"
             :key="index"
         )
 </template>

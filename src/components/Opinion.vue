@@ -1,8 +1,8 @@
 <template lang="pug">
     div.opinion
-        img.thumb-mob(:src="'static/'+photo")
+        img.thumb-mob(:src="'/scholarship-bmx/static/'+photo")
         div.header
-            img.thumb(:src="'static/'+photo")
+            img.thumb(:src="'/scholarship-bmx/static/'+photo")
             span.name {{who}}
         div.quote {{quote}}
 </template>

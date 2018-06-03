@@ -3,7 +3,7 @@
         div.inner-space
             div.col
                 div.responsive-img
-                    img(:src="'static/players/'+players[pickedOne].slug+'.jpg'")
+                    img(:src="'/scholarship-bmx/static/players/'+players[pickedOne].slug+'.jpg'")
                 h1 {{players[pickedOne].name}}
                     span &nbsp;{{players[pickedOne].secondname}}
                 div.description(v-html="players[pickedOne].description")

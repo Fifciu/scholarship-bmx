@@ -1,5 +1,5 @@
 <template lang="pug">
-    div.players(:style="'background-image: url('+'static/tricks/'+pick+'.jpg'+')'")
+    div.players(:style="'background-image: url('+'/scholarship-bmx/static/tricks/'+pick+'.jpg'+')'")
         div.inner-space
             div.col
                 h1 {{capit(pick2)}}
