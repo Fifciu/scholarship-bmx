@@ -1,12 +1,12 @@
-<template>
-  <div id="app">
-    <sidebar/>
-    <div id="route">
-      <transition name="fade" mode="out-in">
-        <router-view/>
-      </transition>
-    </div>
-  </div>
+<template lang="pug">
+  div#app
+    sidebar
+    div#route
+      transition(
+        name="fade"
+        mode="out-in"
+      )
+        router-view
 </template>
 
 <script>
