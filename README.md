@@ -15,4 +15,5 @@ npm run dev
 npm run build
 ```
 
-Preview is available here: LINK
+Preview is available here:
+https://filipjedrasik.github.io/scholarship-bmx/
