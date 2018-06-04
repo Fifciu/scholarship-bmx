@@ -1,5 +1,5 @@
 <template lang="pug">
-    div.players(:style="'background-image: url(/scholarship-bmx/static/map.jpg)'")
+    div.players(:style="'background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)), url(https://cdn.dribbble.com/users/77111/screenshots/2603500/attachments/519183/desktop_wallpaper2_by_maria_shanina.png)'")
         div.inner-space
             h1 Skontaktuj się z nami
             p W celu nawiązania kontaktu wypełnij poniższy formularzy. Na pewno się odezwiemy!
@@ -92,7 +92,7 @@
         }
     }
     div.players{
-        background-size:cover;
+        background-size:cover !important;
         background-position:center;
         background-attachment:fixed;
         min-height:100vh;
@@ -110,21 +110,28 @@
         box-sizing:border-box;
         display:flex;
 
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         div.inner-space{
             padding:30px;
             background: #fff;
             box-sizing:border-box;
             width:55%;
+            outline: 1000px dotted rgba(255,255,255,.15);
+            @media(max-width:1750px){
+                outline: 700px dotted rgba(255,255,255,.15);
+            }
             @media(max-width:1450px){
+                outline: 500px dotted rgba(255,255,255,.15);
                 width:70%;
             }
             @media(max-width:1300px){
+                outline: 450px dotted rgba(255,255,255,.15);
                 width:85%;
             }
             @media(max-width:1000px){
                 width:100%;
+                outline: 0px dotted rgba(255,255,255,.15);
             }
 
             justify-content: space-around;
