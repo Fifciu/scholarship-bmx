@@ -127,9 +127,9 @@
                         border-radius:50%;
                         width:48px;
                         height:48px;
-                        left:0;right:0;top:10px;bottom:0;margin:auto;
+                        left:0;right:0;top:0;bottom:0;margin:auto;
                         transition:.5s;
-                        padding-top:10px;
+                        padding-top:5px;
                         box-sizing:border-box;
                     }
                     &:hover, &.clicked{
