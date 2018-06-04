@@ -1,12 +1,12 @@
 <template lang="pug">
     div.grid-photo-wrapper
         div.grid-photo(
-            :style="'background-image: url('+photo+');background-size:cover; background-position:center;'"
+            :style="'background-image: url('+photo.replace('*', 'small')+');background-size:cover; background-position:center;'"
             @click="showBiggerVersion($event.target)"
         )
         div.grid-big(@click="toggle")
             img(
-                :src="photo"
+                :src="photo.replace('*', '')"
             )
 </template>
 

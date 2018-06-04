@@ -77,6 +77,11 @@
             margin-left:80px;
             border-left: 1px dashed rgba(0,0,0,.2);
             border-right: 1px dashed rgba(0,0,0,.2);
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: .5px;
+            font-size:.95em;
+            line-height: 120%;
+            color:rgba(0,0,0,.65);
             @media (max-width:800px){
                 margin-left: 62px;
             }

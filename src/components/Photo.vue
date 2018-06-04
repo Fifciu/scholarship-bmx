@@ -150,7 +150,7 @@
                 p{
                     margin:0;
                     font-size: .85em;
-                    margin-top: -6px;
+                    margin-top: 0px;
                     position:relative;
                     &:after{
                         content: '';

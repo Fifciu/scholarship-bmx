@@ -4,7 +4,7 @@
             cmp-photo(
                 :header="i.header"
                 :tags="i.tags"
-                :photo="i.route.path + '.jpg'"
+                :photo="'/avg/avg' + i.route.path.replace(\"/p\", \"p\").replace(\"/t\", \"t\") + '.jpg'"
                 :route="i.route"
                 :backgroundPosition="i.bpos ? i.bpos : undefined"
                 v-for="(i,index) in photos"
@@ -14,7 +14,7 @@
             cmp-photo(
                 :header="i.header"
                 :tags="i.tags"
-                :photo="i.route.path + '.jpg'"
+                :photo="'/avg/avg' + i.route.path.replace(\"/p\", \"p\").replace(\"/t\", \"t\") + '.jpg'"
                 :route="i.route"
                 :backgroundPosition="i.bpos ? i.bpos : undefined"
                 v-for="(i,index) in photos"

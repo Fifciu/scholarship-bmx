@@ -1,5 +1,5 @@
 <template lang="pug">
-    div.players(:style="'background-image: url('+'/scholarship-bmx/static/tricks/'+pick+'.jpg'+')'")
+    div.tricks(:style="'background-image: url('+'/scholarship-bmx/static/tricks/'+pick+'.jpg'+')'")
         div.inner-space
             div.col
                 h1 {{capit(pick2)}}
@@ -30,7 +30,7 @@
           this.$router.push("/");
         }
 
-        const el = document.querySelector("div.players>div.inner-space");
+        const el = document.querySelector("div.tricks>div.inner-space");
         el.classList.add("blur");
         setTimeout(() => {
           this.pickedOne = tmpOne;
@@ -56,7 +56,7 @@
             margin: 7px 0px 2px 0px;
         }
     }
-    div.players{
+    div.tricks{
         background-size:cover;
         background-position:center;
         background-attachment:fixed;

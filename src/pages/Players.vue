@@ -49,12 +49,12 @@
             slug: "stevie-churchill",
             name: "Stevie",
             secondname: "Churchill",
-            description: "Churchill was discovered at age 16 doing tricks well beyond his years. \"Lil' Stevie\" went on to blow minds by throwing 360 tailwhip hops and doing many of his hop tricks over huge stair sets and street gap set-ups. Has done some of the biggest truckdrivers and 360 tailwhips down stairs in the history of BMX. The Bristol, CT native developed the technical side of his riding as well, linking multiple tricks into long manual and grind lines and learning a slew of tricks in his opposite direction. He earned his one and only X Games medal - bronze - in Barcelona.<p>Stevie placed seventh in Street at X Games LA 2012, his first X Games appearance, and went on to claim Bronze in Barcelona 2013. He scored fourth in Street at Dew Tour San Francisco in Oct. 2013 and fourth at Texas Toast in Austin, TX, in Oct. 2013.</p>",
+            description: "Churchill was discove#ff0000 at age 16 doing tricks well beyond his years. \"Lil' Stevie\" went on to blow minds by throwing 360 tailwhip hops and doing many of his hop tricks over huge stair sets and street gap set-ups. Has done some of the biggest truckdrivers and 360 tailwhips down stairs in the history of BMX. The Bristol, CT native developed the technical side of his riding as well, linking multiple tricks into long manual and grind lines and learning a slew of tricks in his opposite direction. He earned his one and only X Games medal - bronze - in Barcelona.<p>Stevie placed seventh in Street at X Games LA 2012, his first X Games appearance, and went on to claim Bronze in Barcelona 2013. He sco#ff0000 fourth in Street at Dew Tour San Francisco in Oct. 2013 and fourth at Texas Toast in Austin, TX, in Oct. 2013.</p>",
             skills:[
               {
                 name: "Dirt",
                 level: 15,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -64,7 +64,7 @@
               {
                 name: "Street",
                 level: 95,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -89,7 +89,7 @@
               {
                 name: "Dirt",
                 level: 82,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -99,7 +99,7 @@
               {
                 name: "Street",
                 level: 58,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -124,7 +124,7 @@
               {
                 name: "Dirt",
                 level: 80,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -134,7 +134,7 @@
               {
                 name: "Street",
                 level: 60,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -155,7 +155,7 @@
               {
                 name: "Dirt",
                 level: 85,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -165,7 +165,7 @@
               {
                 name: "Street",
                 level: 50,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -188,7 +188,7 @@
               {
                 name: "Dirt",
                 level: 39,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -198,7 +198,7 @@
               {
                 name: "Street",
                 level: 80,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -219,7 +219,7 @@
               {
                 name: "Dirt",
                 level: 100,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -229,7 +229,7 @@
               {
                 name: "Street",
                 level: 60,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -253,7 +253,7 @@
               {
                 name: "Dirt",
                 level: 100,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -263,7 +263,7 @@
               {
                 name: "Street",
                 level: 100,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -284,7 +284,7 @@
               {
                 name: "Dirt",
                 level: 100,
-                color: "green"
+                color: "#2bb630"
               },
               {
                 name: "Park",
@@ -294,7 +294,7 @@
               {
                 name: "Street",
                 level: 70,
-                color: "red"
+                color: "#ff0000"
               },
               {
                 name: "Flat",
@@ -404,7 +404,7 @@
                 }
                 +h1{
                     font-family: 'Poppins', sans-serif;
-                    margin: 12px 0px 7px 0px;
+                    margin: 12px 0px -6px 0px;
                     color: #4357AD;
                     @media (max-width:370px){
                         font-size:1.65em;
@@ -414,11 +414,14 @@
             }
             div.description{
                 font-family: 'Poppins', sans-serif;
-                letter-spacing: 0px;
+                letter-spacing: .5px;
                 font-size:.95em;
-                color:rgba(0,0,0,.7);
+                line-height: 120%;
+                color:rgba(0,0,0,.55);
                 padding-bottom:5px;
                 border-bottom: 1px dashed rgba(67,87,173,.25);
+                padding-left:8px;
+                padding-right:5px;
                 @media (max-width:370px){
                     font-size:.82em;
                 }
@@ -443,7 +446,11 @@
         margin-top: 0px;
         font-family: 'Poppins', sans-serif;
         li{
-
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: .5px;
+            font-size:.95em;
+            line-height: 120%;
+            color:rgba(0,0,0,.55);
         }
     }
 </style>
