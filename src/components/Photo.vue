@@ -117,7 +117,7 @@
                         border-radius:50%;
                         width:48px;
                         height:48px;
-                        left:10px;right:0;top:0;bottom:0;margin:auto;
+                        left:0px;right:0;top:0;bottom:0;margin:auto;
                         transition:.5s;
                     }
                     &:after{
