@@ -1,6 +1,7 @@
 # BMX
 
 > Scholarship project
+Preview: https://fifciu.github.io/scholarship-bmx/
 
 ## How to install
 
@@ -14,6 +15,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-Preview is available here:
-https://filipjedrasik.github.io/scholarship-bmx/
